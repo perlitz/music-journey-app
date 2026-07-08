@@ -117,22 +117,70 @@ let paused = false;
 // Poll Spotify until the current song ends, then advance. Guarded by `step`.
 function pollSongEnd(uri, myStep) {
   let sawPlaying = false;
+  let lastProgress = 0;
+  let lastDuration = 0;
+  let consecutiveInactive = 0;
+
   const tick = async () => {
     if (myStep !== step) return;
     let st = null;
+    let success = false;
     try {
       st = await getPlaybackState();
-    } catch {}
-    if (myStep !== step) return;
-    if (st?.isPlaying && st.uri === uri) sawPlaying = true;
-    const ended =
-      sawPlaying && (!st || !st.isPlaying || (st.uri && st.uri !== uri));
-    if (ended) {
-      advance();
-      return;
+      success = true;
+    } catch (e) {
+      console.warn('Failed to get Spotify playback state:', e);
     }
+    
+    if (myStep !== step) return;
+
+    if (success) {
+      if (st) {
+        consecutiveInactive = 0;
+        if (st.uri === uri) {
+          if (st.isPlaying) {
+            sawPlaying = true;
+          }
+          lastProgress = st.progressMs;
+          lastDuration = st.durationMs;
+        } else {
+          // The URI changed. If we saw it playing, or if it changed to another track, it's ended.
+          if (sawPlaying) {
+            advance();
+            return;
+          }
+        }
+
+        // If it's not playing anymore, but it's still the same track
+        if (!st.isPlaying && st.uri === uri) {
+          // If it's paused/stopped near the end
+          const nearEnd = lastDuration > 0 && lastProgress >= lastDuration - 4000;
+          if (nearEnd) {
+            advance();
+            return;
+          }
+        }
+      } else {
+        // st is null (204 No Content - no active playback/device)
+        // If we saw it playing and it was near the end, we can assume it finished.
+        if (sawPlaying) {
+          const nearEnd = lastDuration > 0 && lastProgress >= lastDuration - 10000;
+          if (nearEnd) {
+            advance();
+            return;
+          }
+          consecutiveInactive++;
+          if (consecutiveInactive >= 3 && lastDuration > 0 && lastProgress >= lastDuration - 15000) {
+            advance();
+            return;
+          }
+        }
+      }
+    }
+
     setTimeout(tick, POLL_MS);
   };
+  
   setTimeout(tick, POLL_MS);
 }
 
