@@ -93,7 +93,7 @@ function hideOverlay() {
 
 // ----- Radio-style talk-over (volume via Connect) ------------------------
 const SONG_VOLUME = 85; // percent
-const DUCK_VOLUME = 40;
+const DUCK_VOLUME = 60;
 const INTRO_HOLD_MS = 3000;
 const POLL_MS = 1500;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
