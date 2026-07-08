@@ -7,6 +7,10 @@
 let token = 0; // bumped on every play/cancel; stale callbacks check it and bail
 let audio = null; // active <audio> element
 let settle = null; // resolves the current end-wait when cancelled
+let narrationSpeed = 1.0;
+
+export function setNarrationSpeed(rate) { narrationSpeed = rate; }
+export function getNarrationSpeed() { return narrationSpeed; }
 
 export function playAudio(url) {
   cancelAudio();
@@ -14,6 +18,7 @@ export function playAudio(url) {
 
   return (async () => {
     audio = new Audio(url);
+    audio.playbackRate = narrationSpeed;
     const done = new Promise((resolve, reject) => {
       settle = resolve; // cancelAudio() resolves this
       audio.onended = () => resolve();

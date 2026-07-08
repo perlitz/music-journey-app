@@ -28,9 +28,10 @@ If missing, tell the user and stop.
 
 ## The Journey Brief (fill in {SUBJECT})
 > You are writing a guided listening journey about: {SUBJECT}. It's a themed set
-> for an independent radio station, presented by someone who studies music and is
-> explaining it plainly to non-experts — precise, informed, completely matter-of-fact,
-> and concise. Not a dramatic or polished podcast host.
+> for an independent radio station, presented by someone who knows the music well and
+> is teaching it plainly to non-experts. Every sentence must teach the listener
+> something concrete they did not already know. If a sentence could be cut without
+> the listener losing a fact, cut it.
 > Structure: open with a short framing narration, then alternate song/narration,
 > end on a closing narration (10 songs = 11 narration blocks; first and last are
 > narration).
@@ -40,21 +41,35 @@ If missing, tell the user and stop.
 > producer, an instrument, a sample, a label, a technique, a year — rather than a
 > thematic segue.
 > VOICE (this matters most):
->  - Keep all sentences very short, crisp, and conversational. Avoid long compound
->    sentences or rambling explanations.
->  - Lead with specifics: instruments, gear, production choices, personnel, labels,
->    years, musical terms. Assume the listener is smart but untrained.
+>  - Write plain, active-voice, subject-verb-object sentences. Keep them short.
+>  - Every sentence must deliver a specific fact: a name, a year, an instrument, a
+>    technique, a label, a place. Sentences that only set mood or frame a concept
+>    ("X is not just Y; it is Z") are not allowed.
+>  - NO definitions or thesis statements. Don't tell the listener what a genre "is".
+>    Instead, state what happened: who made it, when, where, with what.
+>  - NO participial openers ("Emerging from...", "Drawing on..."). Just state the
+>    fact directly: "It emerged from..." / "He drew on...".
+>  - NO superlatives, grand claims, or vague praise ("the definitive expression of",
+>    "a masterpiece", "singular voice", "devastating"). State what the music does
+>    technically and let the listener decide.
 >  - NO theatrics, drama, taglines, slogans, or punchy one-liners. No "mic drop" /
->    "thesis statement" / "cathedral" rhetoric, no marketing gloss, no elaborate setups.
->  - Be completely plain and declarative. Avoid rhetorical questions and second-person
->    hype ("Look down...", "Picture this...").
->  - The closing narration is short (2-3 sentences), NOT a moral or a call to action.
->    End on a concrete observation or an unresolved detail — the way a host simply
->    stops talking and lets the last record breathe.
-> listenFor: ONE short, concise sentence pointing out a specific technical or musical
-> detail to notice (e.g. a production choice, an instrument, a rhythm shift). Must be
-> brief enough to speak clearly in under 5 seconds over the intro (spoken as
-> "Listen for: ..."). No dramatization or fluff.
+>    "thesis statement" / "cathedral" rhetoric, no marketing gloss.
+>  - NO rhetorical questions, second-person hype ("Picture this..."), or commands.
+>  - BAD: "French chanson is not just a musical style; it is a literary tradition
+>    set to music." → GOOD: "Chanson grew out of Parisian cabaret and music halls
+>    in the early 1900s. The lyrics mattered more than the melody."
+>  - BAD: "Emerging from cabaret, music halls, and Parisian streets, it puts the
+>    lyricist at the absolute center." → GOOD: "It started in cabaret. The
+>    singer usually wrote the words."
+>  - BAD: "these songs document the private dramas of ordinary life" →
+>    GOOD: "most of the songs were about love, loss, or street life in Paris."
+>  - The closing narration is short (2-3 sentences), NOT a moral or call to action.
+>    End on a concrete fact or small unresolved detail.
+> listenFor: ONE short sentence pointing out a specific technical or musical detail
+> (a production choice, an instrument, a rhythm). Must fit in under 5 seconds
+> spoken aloud. The app already prepends "Listen for:" at playback, so do NOT
+> start the value with "Listen for" — just write the detail directly
+> (e.g. "the muted trumpet accents behind the vocal"). No dramatization.
 > Songs: exact canonical artist + widely-available studio recording; avoid
 > ambiguous covers/live/remixes; pick catalog-available tracks.
 > Output ONLY a JSON object (no prose/fence):

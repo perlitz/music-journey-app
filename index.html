@@ -28,6 +28,14 @@
       button:hover { opacity: 0.85; }
       button:disabled { opacity: 0.4; cursor: default; }
       #advance { font-weight: 600; }
+      #speed {
+        font-variant-numeric: tabular-nums;
+        min-width: 3.2rem;
+        text-align: center;
+        font-size: 0.85rem;
+        opacity: 0.7;
+      }
+      #speed:hover { opacity: 1; }
       .toolbar {
         display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
         margin: 1rem 0; position: sticky; top: 0;
@@ -45,13 +53,16 @@
         padding: 0.4rem 0 0.4rem 1rem;
         margin: 1.25rem 0;
         opacity: 0.75;
+        cursor: pointer;
         transition: opacity 0.2s, background 0.2s;
       }
+      .narration:hover { opacity: 0.9; }
       .song {
         border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
         border-radius: 0.75rem;
         padding: 0.85rem 1rem;
         margin: 1rem 0;
+        cursor: pointer;
         transition: background 0.2s, border-color 0.2s;
       }
       .song h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
@@ -120,6 +131,7 @@
         <button id="refreshDevices" title="Refresh devices" hidden>⟳</button>
         <button id="advance" hidden>Start journey</button>
         <button id="pause" hidden>⏸ Pause</button>
+        <button id="speed" title="Narration speed">1×</button>
       </div>
 
       <p id="status">Not connected.</p>

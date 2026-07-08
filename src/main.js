@@ -8,7 +8,7 @@ import {
   setVolume,
   getPlaybackState,
 } from './spotify.js';
-import { playAudio, cancelAudio, pauseAudio, resumeAudio } from './tts.js';
+import { playAudio, cancelAudio, pauseAudio, resumeAudio, setNarrationSpeed, getNarrationSpeed } from './tts.js';
 
 // Load every journey at build time; the app just plays baked data.
 const modules = import.meta.glob('./journeys/*.json', { eager: true });
@@ -34,6 +34,25 @@ const journeyPicker = el('journeyPicker');
 const devicePicker = el('devicePicker');
 const refreshBtn = el('refreshDevices');
 const journeyEl = el('journey');
+const speedBtn = el('speed');
+
+// ----- Narration speed toggle --------------------------------------------
+const SPEED_OPTIONS = [1.0, 1.2, 1.5];
+function initSpeed() {
+  const saved = parseFloat(localStorage.getItem('narration_speed'));
+  if (saved && SPEED_OPTIONS.includes(saved)) setNarrationSpeed(saved);
+  updateSpeedLabel();
+}
+function updateSpeedLabel() {
+  speedBtn.textContent = `${getNarrationSpeed()}×`;
+}
+function cycleSpeed() {
+  const cur = getNarrationSpeed();
+  const next = SPEED_OPTIONS[(SPEED_OPTIONS.indexOf(cur) + 1) % SPEED_OPTIONS.length];
+  setNarrationSpeed(next);
+  localStorage.setItem('narration_speed', next);
+  updateSpeedLabel();
+}
 
 let deviceId = null; // the Spotify Connect device we drive
 const segNodes = [];
@@ -45,11 +64,12 @@ function render() {
   journeyEl.innerHTML = '';
   segNodes.length = 0;
 
-  journey.segments.forEach((seg) => {
+  journey.segments.forEach((seg, i) => {
     if (seg.type === 'narration') {
       const p = document.createElement('p');
       p.className = 'narration';
       p.textContent = seg.text;
+      p.addEventListener('click', () => jumpTo(i));
       journeyEl.appendChild(p);
       segNodes.push({ node: p });
       return;
@@ -63,9 +83,17 @@ function render() {
       <h3>${seg.title} — ${seg.artist}</h3>
       <div class="listen-for">Listen for: ${seg.listenFor || ''}</div>
       ${match}`;
+    card.addEventListener('click', () => jumpTo(i));
     journeyEl.appendChild(card);
     segNodes.push({ node: card });
   });
+}
+
+function jumpTo(i) {
+  if (!isLoggedIn()) return;
+  // Set index to one before target so advance() increments to i.
+  index = i - 1;
+  advance(false);
 }
 
 function setCurrent(i) {
@@ -89,6 +117,30 @@ function showOverlay(seg) {
 function hideOverlay() {
   clearTimeout(overlayTimer);
   overlay.classList.remove('show');
+}
+
+// ----- Notifications (bring the user back from Spotify on mobile) --------
+let notifPermission = typeof Notification !== 'undefined' ? Notification.permission : 'denied';
+
+async function requestNotifPermission() {
+  if (typeof Notification === 'undefined') return;
+  if (Notification.permission === 'default') {
+    notifPermission = await Notification.requestPermission();
+  } else {
+    notifPermission = Notification.permission;
+  }
+}
+
+function notifyReturn(title, body) {
+  // Only notify when the tab is hidden (user is in Spotify app).
+  if (!document.hidden) return;
+  if (notifPermission !== 'granted') return;
+  try {
+    const n = new Notification(title, { body, icon: 'favicon.png', tag: 'journey-advance', renotify: true });
+    n.onclick = () => { window.focus(); n.close(); };
+    // Auto-dismiss after 8 seconds.
+    setTimeout(() => n.close(), 8000);
+  } catch (_) { /* notifications may fail in some contexts */ }
 }
 
 // ----- Radio-style talk-over (volume via Connect) ------------------------
@@ -136,6 +188,26 @@ async function duckAndPlay(url, myStep) {
 let index = -1;
 let step = 0; // async callbacks compare against this to detect a Skip
 let paused = false;
+
+// When the user switches back to the browser (e.g. from the Spotify app on
+// Android), immediately check if the current song has ended. Background tabs
+// get heavily throttled on mobile, so the normal poll may be minutes behind.
+document.addEventListener('visibilitychange', async () => {
+  if (document.hidden) return;
+  if (paused) return;
+  const seg = journey.segments[index];
+  if (!seg || seg.type !== 'song' || !seg.spotifyUri || !deviceId) return;
+  const myStep = step;
+  try {
+    const st = await getPlaybackState();
+    if (myStep !== step) return;
+    if (!st) { advance(false); return; }
+    // Song changed or finished near the end — advance.
+    if (st.uri !== seg.spotifyUri) { advance(false); return; }
+    const nearEnd = st.durationMs > 0 && st.progressMs >= st.durationMs - 4000;
+    if (!st.isPlaying && nearEnd) { advance(false); }
+  } catch (_) { /* ignore, normal poll will catch up */ }
+});
 
 // Poll Spotify until the current song ends, then advance. Guarded by `step`.
 function pollSongEnd(uri, myStep) {
@@ -236,6 +308,7 @@ async function advance(fade = false) {
     pauseBtn.hidden = false;
     pauseBtn.textContent = '⏸ Pause';
     statusEl.textContent = '🗣 Narrating…';
+    notifyReturn('🗣 Narrating…', seg.text.slice(0, 80) + '…');
     try {
       await playAudio(asset(seg.audio));
       if (myStep === step) advance(false); // natural narration end, no fade
@@ -261,6 +334,7 @@ async function advance(fade = false) {
     pauseBtn.hidden = false;
     pauseBtn.textContent = '⏸ Pause';
     statusEl.textContent = `▶ ${seg.title} — ${seg.artist}`;
+    notifyReturn(`▶ ${seg.title}`, `Now playing: ${seg.title} — ${seg.artist}`);
     pollSongEnd(seg.spotifyUri, myStep);
 
     if (seg.cueAudio) {
@@ -368,8 +442,10 @@ devicePicker.addEventListener('change', async () => {
   if (deviceId) await transferPlayback(deviceId).catch(() => {});
 });
 refreshBtn.addEventListener('click', refreshDevices);
+speedBtn.addEventListener('click', cycleSpeed);
 
 async function init() {
+  initSpeed();
   populateJourneyPicker();
   render();
 
@@ -392,6 +468,7 @@ async function init() {
   refreshBtn.hidden = false;
   advanceBtn.hidden = false;
   advanceBtn.textContent = 'Start journey';
+  await requestNotifPermission();
   await showProfile(token);
   await refreshDevices();
 }

@@ -1,0 +1,161 @@
+{
+  "title": "Six Strings: A History of the Guitar in Ten Recordings",
+  "subject": "the guitar",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "The guitar became the dominant instrument in popular music sometime in the 1950s, but guitarists had been reshaping recordings for decades before that. This set covers ten tracks that changed what people expected a guitar to do — from a 1936 blues 78 to a 2006 fingerstyle piece. Each one introduced a technique or a sound that other players then copied.",
+      "audio": "/audio/the-guitar/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Cross Road Blues",
+      "artist": "Robert Johnson",
+      "listenFor": "the boogie bass line Johnson plays with his thumb while his fingers handle the melody on the treble strings.",
+      "spotifyUri": "spotify:track:1TrGdXSgiBm8W68D2K1COG",
+      "spotifyName": "Cross Road Blues",
+      "spotifyArtists": "Robert Johnson",
+      "cueAudio": "/audio/the-guitar/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Johnson recorded that in a San Antonio hotel room in 1936 with one microphone. His thumb-and-finger independence on a cheap Kalamazoo flattop set the template for every solo acoustic blues player after him. Twenty years later, Chuck Berry took a similar rhythmic drive and ran it through an electric guitar and a small tube amp.",
+      "audio": "/audio/the-guitar/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Johnny B. Goode",
+      "artist": "Chuck Berry",
+      "listenFor": "the double-stop intro riff — two notes played simultaneously on adjacent strings.",
+      "spotifyUri": "spotify:track:2QfiRTz5Yc8DdShCxG1tB2",
+      "spotifyName": "Johnny B. Goode",
+      "spotifyArtists": "Chuck Berry",
+      "cueAudio": "/audio/the-guitar/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Berry recorded that intro in 1958 at Chess Records in Chicago using a Gibson ES-350T through a Fender amp. The double-stop riff became the default opening move for rock and roll guitar. In 1965, a session guitarist in Los Angeles used a different trick to make an acoustic twelve-string sound bigger than any electric.",
+      "audio": "/audio/the-guitar/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Mr. Tambourine Man",
+      "artist": "The Byrds",
+      "listenFor": "the compressed, jangling Rickenbacker twelve-string that carries the entire arrangement.",
+      "spotifyUri": "spotify:track:2HCaIYjkvWSZzaSKUoOh3d",
+      "spotifyName": "Mr. Tambourine Man",
+      "spotifyArtists": "The Byrds",
+      "cueAudio": "/audio/the-guitar/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Roger McGuinn ran his Rickenbacker 360/12 through a compressor, which evened out the volume of all twelve strings and created that shimmery sustain. The Byrds' producer Terry Melcher tracked it with a lot of room reverb. A year later, Jimi Hendrix arrived in London and used the electric guitar to produce sounds nobody had associated with a guitar before.",
+      "audio": "/audio/the-guitar/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Purple Haze",
+      "artist": "The Jimi Hendrix Experience",
+      "listenFor": "the octave-doubled fuzz tone in the opening riff, produced by a custom Octavia pedal built by Roger Mayer.",
+      "spotifyUri": "spotify:track:0wJoRiX5K5BxlqZTolB2LD",
+      "spotifyName": "Purple Haze",
+      "spotifyArtists": "Jimi Hendrix",
+      "cueAudio": "/audio/the-guitar/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Hendrix recorded that at Olympic Studios in London in early 1967. He played a right-handed Fender Stratocaster flipped upside down, which changed the string tension and contributed to his unusual bending style. Meanwhile in Memphis, Steve Cropper was proving that a guitar could define a song by playing almost nothing.",
+      "audio": "/audio/the-guitar/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Green Onions",
+      "artist": "Booker T. & The M.G.'s",
+      "listenFor": "Cropper's clipped, muted chord stabs on the offbeat — he lets the organ carry the melody and plays only rhythm.",
+      "spotifyUri": "spotify:track:4fQMGlCawbTkH9yPPZ49kP",
+      "spotifyName": "Green Onions",
+      "spotifyArtists": "Booker T. & the M.G.'s",
+      "cueAudio": "/audio/the-guitar/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Cropper used a Fender Telecaster plugged straight into the board at Stax Records. No pedals, no reverb. That dry, percussive approach to rhythm guitar showed up again in the 1970s when Nile Rodgers built an entire genre around it.",
+      "audio": "/audio/the-guitar/n05.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Le Freak",
+      "artist": "Chic",
+      "listenFor": "the scratchy, muted sixteenth-note strumming pattern Rodgers plays on a Fender Stratocaster — he called the technique 'chucking'.",
+      "spotifyUri": "spotify:track:4qL9VYPB4XwJKAOq4xn2Mh",
+      "spotifyName": "Le Freak",
+      "spotifyArtists": "CHIC",
+      "cueAudio": "/audio/the-guitar/c05.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Rodgers recorded that at the Power Station in New York in 1978. He kept his right hand moving in constant sixteenth notes and muted with his left to control which strums rang out. Ten years later, Johnny Marr took a different approach to rhythm guitar — layering multiple clean parts on top of each other.",
+      "audio": "/audio/the-guitar/n06.mp3"
+    },
+    {
+      "type": "song",
+      "title": "How Soon Is Now?",
+      "artist": "The Smiths",
+      "listenFor": "the tremolo effect on the main riff — Marr ran his guitar through a vibrato unit and then re-amped it to get that pulsing, shaking sound.",
+      "spotifyUri": "spotify:track:1YrnDTqvcnUKxAIeXyaEmU",
+      "spotifyName": "How Soon Is Now? - 2011 Remaster",
+      "spotifyArtists": "The Smiths",
+      "cueAudio": "/audio/the-guitar/c06.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Marr recorded several guitar layers for that track at Jam Studios in 1984, each with a different effect chain. Producer John Porter helped him feed the guitar signal back through multiple amps to thicken the tremolo. A few years later, Kevin Shields of My Bloody Valentine pushed layered guitar processing even further — into pure texture.",
+      "audio": "/audio/the-guitar/n07.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Only Shallow",
+      "artist": "My Bloody Valentine",
+      "listenFor": "the pitch-bent wall of sound — Shields wobbled his tremolo bar while strumming to make the tuning drift in and out.",
+      "spotifyUri": "spotify:track:1KKuoYESWoUGsau6YYoEMl",
+      "spotifyName": "only shallow",
+      "spotifyArtists": "my bloody valentine",
+      "cueAudio": "/audio/the-guitar/c07.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Shields recorded and re-recorded guitar parts on that track throughout 1990 and 1991, using reverse reverb and sampled guitar loops. The final mix stacked so many guitar layers that individual notes disappeared into a wash of overtones. In a completely different direction, Jack White stripped the electric guitar back to its most raw and simple setup.",
+      "audio": "/audio/the-guitar/n08.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Seven Nation Army",
+      "artist": "The White Stripes",
+      "listenFor": "the main riff is a guitar tuned down and played through a Whammy pedal set to an octave below — there is no bass guitar on this track.",
+      "spotifyUri": "spotify:track:3dPQuX8Gs42Y7b454ybpMR",
+      "spotifyName": "Seven Nation Army",
+      "spotifyArtists": "The White Stripes",
+      "cueAudio": "/audio/the-guitar/c08.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "White recorded that at Toe Rag Studios in London in 2003, using all-analog eight-track equipment from the 1960s. He played a 1964 Airline guitar through a Whammy pedal into a Fender Twin. Three years later, an Australian fingerstyle player showed that a single acoustic guitar could sound like a full band.",
+      "audio": "/audio/the-guitar/n09.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Drifting",
+      "artist": "Andy McKee",
+      "listenFor": "the percussive slaps on the guitar body that function as a drum part while both hands tap notes on the fretboard.",
+      "spotifyUri": "spotify:track:6rpds4Vh8zoLMBC9EjEOzt",
+      "spotifyName": "Drifting",
+      "spotifyArtists": "Andy McKee",
+      "cueAudio": "/audio/the-guitar/c09.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "McKee used a harp guitar — a modified acoustic with extra bass strings — and combined two-hand tapping with body percussion. He posted that performance on YouTube in 2006 and it became one of the first viral guitar videos. The guitar kept changing after that, but the basic idea stayed the same: six strings and whatever you can make them do.",
+      "audio": "/audio/the-guitar/n10.mp3"
+    }
+  ]
+}
