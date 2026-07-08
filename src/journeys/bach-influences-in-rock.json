@@ -1,0 +1,161 @@
+{
+  "title": "Baroque in the Garage: Bach's Fingerprints on Rock",
+  "subject": "Bach influences in rock",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Johann Sebastian Bach died in 1750 without ever hearing a drum kit or an electric guitar. Yet three centuries later, rock musicians keep stealing his tricks. From counterpoint melodies to descending basslines and the circle of fifths, his structural rules became the hidden architecture of pop music. Here is how Bach wound up inside the recording studio.",
+      "audio": "/audio/bach-influences-in-rock/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "God Only Knows",
+      "artist": "The Beach Boys",
+      "listenFor": "Notice the intricate vocal counterpoint at the end where multiple independent melodies weave around each other like a baroque fugue.",
+      "spotifyUri": "spotify:track:0ObrXLrfrqJUNc8RfmIBHP",
+      "spotifyName": "God Only Knows",
+      "spotifyArtists": "The Beach Boys",
+      "cueAudio": "/audio/bach-influences-in-rock/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Brian Wilson built that ending canon by stacking three independent vocal lines over a French horn and harpsichord. A year earlier in London, producer George Martin wanted that exact baroque harpsichord texture on a Beatles ballad. Martin recorded a piano solo at half speed, then doubled the tape speed so the playback gained crisp, Bach-style counterpoint.",
+      "audio": "/audio/bach-influences-in-rock/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "In My Life",
+      "artist": "The Beatles",
+      "listenFor": "George Martin's piano solo in the middle, recorded at half speed so it plays back with the crisp timbre and precise counterpoint of a Bach two-part invention.",
+      "spotifyUri": "spotify:track:3KfbEIOC7YIv90FIfNSZpo",
+      "spotifyName": "In My Life - Remastered 2009",
+      "spotifyArtists": "The Beatles",
+      "cueAudio": "/audio/bach-influences-in-rock/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That sped-up piano solo proved baroque textures could fit right onto a pop single. Two years later, organist Matthew Fisher took the next step with his Hammond M-102 organ. Fisher directly lifted the descending step-wise bassline and harmonic progression from Bach's Air on the G String.",
+      "audio": "/audio/bach-influences-in-rock/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "A Whiter Shade of Pale",
+      "artist": "Procol Harum",
+      "listenFor": "Matthew Fisher's Hammond organ intro, which adapts the descending step-wise bass progression of Bach's Air on the G String.",
+      "spotifyUri": "spotify:track:2ECReVEeiSQk8zpC9TRAwx",
+      "spotifyName": "A Whiter Shade of Pale - 2007 Remaster",
+      "spotifyArtists": "Procol Harum",
+      "cueAudio": "/audio/bach-influences-in-rock/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Fisher's Hammond organ adaptation turned Bach into the summer anthem of 1967. By 1969, British rock bands stopped borrowing pieces of Bach and began rearranging his entire compositions. Flutist Ian Anderson took Bach's Bourrée in E minor, originally written for lute, and retracked it as a walking-bass jazz-rock instrumental.",
+      "audio": "/audio/bach-influences-in-rock/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Bourée",
+      "artist": "Jethro Tull",
+      "listenFor": "Ian Anderson's lead flute melody, which is a direct arrangement of Bach's Bourrée in E minor written originally for lute.",
+      "spotifyUri": "spotify:track:5Uene4exc7GwWYDN6X3Ihd",
+      "spotifyName": "Bourée",
+      "spotifyArtists": "Jethro Tull",
+      "cueAudio": "/audio/bach-influences-in-rock/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Anderson overdubbed two harmony flutes on that track to mimic Bach's original lute intervals. In 1972, Deep Purple guitarist Ritchie Blackmore took those same classical intervals and amplified them through a Marshall stack. Blackmore studied Bach's violin concertos and built his high-speed solos using baroque arpeggios over a static pedal point bass.",
+      "audio": "/audio/bach-influences-in-rock/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Highway Star",
+      "artist": "Deep Purple",
+      "listenFor": "Ritchie Blackmore's high-speed guitar solo at two minutes in, built from baroque chord arpeggios over a driving D minor pedal tone.",
+      "spotifyUri": "spotify:track:3uMmllZo1AfoEnVT4ENCD3",
+      "spotifyName": "Highway Star - Remastered 2012",
+      "spotifyArtists": "Deep Purple",
+      "cueAudio": "/audio/bach-influences-in-rock/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Blackmore's D-minor arpeggio solo became the blueprint for heavy metal guitar lead work. Three years later, Freddie Mercury applied Bach's formal rules to multi-track studio vocals. Mercury used twenty-four-track tape to layer four-part chorale voicings with strict baroque voice leading.",
+      "audio": "/audio/bach-influences-in-rock/n05.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "listenFor": "The multi-layered a cappella section in the middle, voiced with the strict four-part harmony rules of a traditional Bach chorale.",
+      "spotifyUri": "spotify:track:3z8h0TU7ReDPLIbEnYhWZb",
+      "spotifyName": "Bohemian Rhapsody",
+      "spotifyArtists": "Queen",
+      "cueAudio": "/audio/bach-influences-in-rock/c05.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Mercury stacked vocal overdubs until the master tape wore thin from repeated passes. By the 1980s, Swedish guitarist Yngwie Malmsteen brought Bach's violin techniques back to the electric guitar with obsessive precision. Malmsteen used the harmonic minor scale and diminished seventh arpeggios directly from Bach's solo violin partitas.",
+      "audio": "/audio/bach-influences-in-rock/n06.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Black Star",
+      "artist": "Yngwie Malmsteen",
+      "listenFor": "The rapid harmonic minor scale runs and pedal-point guitar riffs derived directly from Bach's solo violin partitas.",
+      "spotifyUri": "spotify:track:1AV3rIWvecCLHb3dlLmTVp",
+      "spotifyName": "Black Star",
+      "spotifyArtists": "Yngwie Malmsteen",
+      "cueAudio": "/audio/bach-influences-in-rock/c06.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Malmsteen's diminished arpeggios turned baroque virtuosity into a technical standard for guitar players. At the turn of the millennium, British trio Muse brought those same baroque harmonic figures to alternative rock. Guitarist Matt Bellamy built his signature guitar hook around a Bach-style circle of fifths chord progression.",
+      "audio": "/audio/bach-influences-in-rock/n07.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Plug In Baby",
+      "artist": "Muse",
+      "listenFor": "Matt Bellamy's opening guitar riff, which traces a baroque circle-of-fifths arpeggio pattern reminiscent of Bach's organ works.",
+      "spotifyUri": "spotify:track:2UKARCqDrhkYDoVR4FN5Wi",
+      "spotifyName": "Plug in Baby",
+      "spotifyArtists": "Muse",
+      "cueAudio": "/audio/bach-influences-in-rock/c07.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Bellamy's opening riff loops through five descending fifths before resolving to the tonic chord. That same year, Radiohead looked past Bach's virtuosity and focused on his sacred choral writing. Guitarist Jonny Greenwood arranged a pedal organ using strict four-part voice leading modeled on Bach's St. Matthew Passion.",
+      "audio": "/audio/bach-influences-in-rock/n08.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Motion Picture Soundtrack",
+      "artist": "Radiohead",
+      "listenFor": "Jonny Greenwood's pedal organ accompaniment, arranged in strict four-part chorale motion like a baroque church hymn.",
+      "spotifyUri": "spotify:track:4SrRrB27n7fiRkQcPoKfpk",
+      "spotifyName": "Motion Picture Soundtrack",
+      "spotifyArtists": "Radiohead",
+      "cueAudio": "/audio/bach-influences-in-rock/c08.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Greenwood's pedal organ chords move with the deliberate, solemn weight of a baroque hymn. Thirty years earlier, songwriter Paul Simon had turned to the exact same Bach choral source. Simon lifted his acoustic guitar melody and chord changes note-for-note from a chorale in Bach's St. Matthew Passion.",
+      "audio": "/audio/bach-influences-in-rock/n09.mp3"
+    },
+    {
+      "type": "song",
+      "title": "American Tune",
+      "artist": "Paul Simon",
+      "listenFor": "The main acoustic guitar and vocal melody, which Paul Simon took note-for-note from Bach's St. Matthew Passion chorale.",
+      "spotifyUri": "spotify:track:3g3xDtGtU0asKw6iYCYiG5",
+      "spotifyName": "American Tune",
+      "spotifyArtists": "Paul Simon",
+      "cueAudio": "/audio/bach-influences-in-rock/c09.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Simon borrowed a melody Bach himself had adapted from a sixteenth-century German love song by Hans Leo Hassler. Three centuries of composers kept re-harmonizing those same notes for harpsichords, organs, and twelve-string guitars. The chord progressions remain in the studio, waiting for whatever instrument gets plugged in next.",
+      "audio": "/audio/bach-influences-in-rock/n10.mp3"
+    }
+  ]
+}
