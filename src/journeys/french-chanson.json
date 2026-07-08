@@ -1,0 +1,161 @@
+{
+  "title": "La Voix de la Rue: The Soul of French Chanson",
+  "subject": "French chanson",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "French chanson is not just a musical style; it is a literary tradition set to music. Emerging from cabaret, music halls, and Parisian streets, it puts the lyricist and the storyteller at the absolute center. From the accordion-driven street songs of the mid-century to the smoky pop experiments of the sixties, these songs document the private dramas of ordinary life. Let us start on the streets of Paris with its most famous voice.",
+      "audio": "/audio/french-chanson/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "La Vie en rose",
+      "artist": "Edith Piaf",
+      "listenFor": "Listen for Édith Piaf's heavy, rolling R's and the dramatic swell of the strings that mirror her emotional intensity.",
+      "spotifyUri": "spotify:track:3lAun9V0YdTlCSIEXPvfsY",
+      "spotifyName": "La Vie en rose",
+      "spotifyArtists": "Édith Piaf",
+      "cueAudio": "/audio/french-chanson/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Piaf's raw vocal vibrato defined the post-war French realist style, turning street ballads into grand tragedy. But the post-war era also brought a lighter, swing-influenced poetic style. In 1946, Charles Trenet wrote a masterpiece on a train, blending chanson with jazz rhythms and impressionist poetry.",
+      "audio": "/audio/french-chanson/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "La Mer",
+      "artist": "Charles Trenet",
+      "listenFor": "Listen for the rolling triplet rhythm in the orchestration, mimicking the gentle sway of sea waves.",
+      "spotifyUri": "spotify:track:1ZK8WJqkD1XhEYI1AlkMHG",
+      "spotifyName": "La mer",
+      "spotifyArtists": "Charles Trenet",
+      "cueAudio": "/audio/french-chanson/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Trenet's airy vocal delivery and swing rhythm showed that chanson could be both poetic and danceable. In 1949, actor and singer Yves Montand popularized a melancholy jazz standard written by poet Jacques Prévert and composer Joseph Kosma. It remains the definitive musical expression of autumn.",
+      "audio": "/audio/french-chanson/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Les feuilles mortes",
+      "artist": "Yves Montand",
+      "listenFor": "Notice the subtle, muted trumpet accents that punctuate Montand's low, spoken-word introduction.",
+      "spotifyUri": "spotify:track:4yKTDPH6iRBHmA44AipmIk",
+      "spotifyName": "Les feuilles mortes",
+      "spotifyArtists": "Yves Montand",
+      "cueAudio": "/audio/french-chanson/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Montand's conversational tone treated the song like a theatrical monologue. By the 1950s, a new wave of singer-songwriters, or auteurs-compositeurs-interprètes, emerged with just an acoustic guitar. Georges Brassens shocked polite society with his dry delivery, complex internal rhymes, and anti-authoritarian wit.",
+      "audio": "/audio/french-chanson/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "La mauvaise réputation",
+      "artist": "Georges Brassens",
+      "listenFor": "Listen for the steady, simple rhythm of Brassens' acoustic guitar and the dry, deadpan delivery of his lyrics.",
+      "spotifyUri": "spotify:track:1CXcTLzJ3b2KJylbsbF0cE",
+      "spotifyName": "La mauvaise réputation",
+      "spotifyArtists": "Georges Brassens",
+      "cueAudio": "/audio/french-chanson/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Brassens kept his instrumentation minimal to keep the focus entirely on his subversive poetry. Meanwhile, Belgian singer Jacques Brel brought a theatrical, almost explosive physical intensity to the stage. In 1959, he recorded his signature plea of romantic desperation, driving his voice to the edge of collapse.",
+      "audio": "/audio/french-chanson/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Ne me quitte pas",
+      "artist": "Jacques Brel",
+      "listenFor": "Listen for the eerie Ondes Martenot — an early electronic keyboard — mirroring Brel's vocal line in the background.",
+      "spotifyUri": "spotify:track:6IRA4KOVbtiGiTdYoEThJN",
+      "spotifyName": "Ne me quitte pas",
+      "spotifyArtists": "Jacques Brel",
+      "cueAudio": "/audio/french-chanson/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Brel's voice rises in pitch and intensity as the orchestration swells to match his desperation. In the early sixties, Barbara emerged as a singular voice of intimate, piano-led chanson. Performing under her own name, she wrote delicate, highly autobiographical songs about loss, time, and longing.",
+      "audio": "/audio/french-chanson/n05.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Dis, quand reviendras-tu ?",
+      "artist": "Barbara",
+      "listenFor": "Notice Barbara's delicate piano accompaniment and how her vocal pauses create a conversational, intimate pace.",
+      "spotifyUri": "spotify:track:28zIlzSZ0VO8UUs28ttTlE",
+      "spotifyName": "Dis quand reviendras-tu ?",
+      "spotifyArtists": "Barbara",
+      "cueAudio": "/audio/french-chanson/c05.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Barbara's sparse piano playing allowed her intricate vocal phrasing to take center stage. Around the same time, Charles Aznavour brought a grand, cinematic theatricality to the genre. In 1965, he captured the fading memory of Parisian bohemian life with a dramatic waltz.",
+      "audio": "/audio/french-chanson/n06.mp3"
+    },
+    {
+      "type": "song",
+      "title": "La Bohème",
+      "artist": "Charles Aznavour",
+      "listenFor": "Listen for the shift from Aznavour's quiet, reflective verses to the waltz tempo of the chorus.",
+      "spotifyUri": "spotify:track:1WvvmEowf7hiz5EnyAwtTj",
+      "spotifyName": "La bohème",
+      "spotifyArtists": "Charles Aznavour",
+      "cueAudio": "/audio/french-chanson/c06.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Aznavour's dramatic build-up drew directly on the theatrical cabaret traditions of old Paris. By the late sixties, songwriter Léo Ferré began experimenting with spoken-word poetry set to large, classical orchestrations. His masterpiece is a devastating, unhurried meditation on how time erodes love.",
+      "audio": "/audio/french-chanson/n07.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Avec le temps",
+      "artist": "Léo Ferré",
+      "listenFor": "Listen to the sparse, slow piano chords and Ferré's gravelly, semi-spoken delivery that feels like a private diary.",
+      "spotifyUri": "spotify:track:1yV8COc0BugGq7dGsjnlct",
+      "spotifyName": "Avec le temps",
+      "spotifyArtists": "Léo Ferré",
+      "cueAudio": "/audio/french-chanson/c07.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Ferré's spoken delivery bridged the gap between street poetry and avant-garde art. Meanwhile, Serge Gainsbourg was busy dismantling the traditional chanson format entirely. In 1963, Gainsbourg combined jazz chords with literary wordplay, writing a song structured around the rolling syllables of the swing style.",
+      "audio": "/audio/french-chanson/n08.mp3"
+    },
+    {
+      "type": "song",
+      "title": "La Javanaise",
+      "artist": "Serge Gainsbourg",
+      "listenFor": "Listen for the gentle, swinging piano chords and the whispery, conversational tone of Gainsbourg's close-mic vocal.",
+      "spotifyUri": "spotify:track:7cUKT1Wiwve4E5iRFOLVmz",
+      "spotifyName": "La javanaise",
+      "spotifyArtists": "Serge Gainsbourg",
+      "cueAudio": "/audio/french-chanson/c08.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Gainsbourg's intimate, close-mic singing style became his trademark as he transitioned from jazz to pop. That same intimacy, combined with acoustic folk and teenage melancholy, defined the yé-yé pop style. In 1962, Françoise Hardy wrote a quiet folk chanson that became the anthem of a lonely generation.",
+      "audio": "/audio/french-chanson/n09.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Tous les garçons et les filles",
+      "artist": "Françoise Hardy",
+      "listenFor": "Listen for the simple, strummed acoustic guitar and Hardy's soft, double-tracked vocal tracking the melody.",
+      "spotifyUri": "spotify:track:0Yg1hSAUgd2AAneReFOVzS",
+      "spotifyName": "Tous les garçons et les filles - Stereo Mix",
+      "spotifyArtists": "Françoise Hardy",
+      "cueAudio": "/audio/french-chanson/c09.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Hardy's track stripped away the orchestral drama of the older generation, leaving only a quiet guitar and a voice. Across fifty years, chanson evolved from the accordion-driven street cries of Édith Piaf to the introspective pop of the sixties. But the core rule never changed: the lyric is the music, and the voice tells the story.",
+      "audio": "/audio/french-chanson/n10.mp3"
+    }
+  ]
+}
