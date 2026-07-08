@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Journey</title>
+    <style>
+      :root { color-scheme: light dark; }
+      body {
+        font-family: system-ui, -apple-system, sans-serif;
+        max-width: 44rem;
+        margin: 3rem auto;
+        padding: 0 1.5rem;
+        line-height: 1.55;
+      }
+      h1 { font-size: 1.5rem; margin-bottom: 0.25rem; }
+      .subtitle { opacity: 0.7; margin-top: 0; }
+      #status { opacity: 0.75; font-size: 0.9rem; min-height: 1.2rem; }
+      button {
+        font: inherit;
+        padding: 0.45rem 0.9rem;
+        border-radius: 0.5rem;
+        border: 1px solid currentColor;
+        background: transparent;
+        cursor: pointer;
+      }
+      button:hover { opacity: 0.85; }
+      button:disabled { opacity: 0.4; cursor: default; }
+      #advance { font-weight: 600; }
+      .toolbar {
+        display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+        margin: 1rem 0; position: sticky; top: 0;
+        background: Canvas; padding: 0.75rem 0; z-index: 1;
+      }
+      select {
+        font: inherit;
+        padding: 0.4rem 0.6rem;
+        border-radius: 0.5rem;
+        border: 1px solid currentColor;
+        background: transparent;
+      }
+      .narration {
+        border-left: 3px solid currentColor;
+        padding: 0.4rem 0 0.4rem 1rem;
+        margin: 1.25rem 0;
+        opacity: 0.75;
+        transition: opacity 0.2s, background 0.2s;
+      }
+      .song {
+        border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+        border-radius: 0.75rem;
+        padding: 0.85rem 1rem;
+        margin: 1rem 0;
+        transition: background 0.2s, border-color 0.2s;
+      }
+      .song h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+      .listen-for { font-size: 0.9rem; opacity: 0.8; font-style: italic; }
+      .match { font-size: 0.82rem; margin-top: 0.5rem; opacity: 0.7; }
+      .match.ok { color: #2e9e44; opacity: 1; }
+      .match.bad { color: #d64545; opacity: 1; }
+      /* The segment currently being played / read. */
+      .current {
+        opacity: 1;
+        background: color-mix(in srgb, currentColor 9%, transparent);
+        border-color: color-mix(in srgb, currentColor 60%, transparent);
+        border-radius: 0.5rem;
+      }
+      .current.narration { border-left-width: 5px; }
+
+      /* "Listen for" overlay that rises as each song starts, then fades. */
+      #overlay {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        background: color-mix(in srgb, Canvas 55%, transparent);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.6s ease;
+        z-index: 10;
+      }
+      #overlay.show { opacity: 1; }
+      .overlay-card {
+        max-width: 34rem;
+        text-align: center;
+        transform: translateY(8px);
+        transition: transform 0.6s ease;
+      }
+      #overlay.show .overlay-card { transform: translateY(0); }
+      .overlay-song { font-size: 1rem; opacity: 0.65; margin-bottom: 1.25rem; }
+      .overlay-label {
+        text-transform: uppercase;
+        letter-spacing: 0.18em;
+        font-size: 0.75rem;
+        opacity: 0.55;
+        margin-bottom: 0.9rem;
+      }
+      .overlay-text { font-size: 1.7rem; line-height: 1.4; font-style: italic; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Music Journey</h1>
+      <p class="subtitle" id="subtitle"></p>
+
+      <div class="toolbar">
+        <button id="login">Log in with Spotify</button>
+        <select id="journeyPicker" title="Choose a journey"></select>
+        <select id="devicePicker" title="Spotify playback device" hidden></select>
+        <button id="refreshDevices" title="Refresh devices" hidden>⟳</button>
+        <button id="advance" hidden>Start journey</button>
+        <button id="pause" hidden>⏸ Pause</button>
+      </div>
+
+      <p id="status">Not connected.</p>
+      <div id="journey"></div>
+    </main>
+
+    <div id="overlay">
+      <div class="overlay-card">
+        <div class="overlay-song"></div>
+        <div class="overlay-label">Listen for</div>
+        <div class="overlay-text"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

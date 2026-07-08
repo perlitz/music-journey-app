@@ -1,0 +1,161 @@
+{
+  "title": "Rain on Tape",
+  "subject": "rain",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Rain gets into records in three ways, and tonight's set keeps running into all of them. Sometimes it's the literal sound — a field recording or a sound-effects disc mixed under the band. Sometimes it's just the subject, and the arrangement has to carry it. And sometimes it's a production technique: an instrument or a tape trick standing in for water, because real rain on a microphone mostly reads as static. We'll start with the plainest case: in April 1963, John Coltrane's quartet recorded an instrumental at Rudy Van Gelder's studio in Englewood Cliffs, New Jersey, and the only rain in it is the title.",
+      "audio": "/audio/rain/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "After the Rain",
+      "artist": "John Coltrane",
+      "listenFor": "Listen for: the drums played entirely with mallets on the toms, with almost no cymbal timekeeping, while McCoy Tyner holds a rippling repeated figure in the piano's upper register.",
+      "spotifyUri": "spotify:track:2JQqfVJhFnNADUJDDPmw63",
+      "spotifyName": "After The Rain",
+      "spotifyArtists": "John Coltrane",
+      "cueAudio": "/audio/rain/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That was Roy Haynes on drums, filling in for Elvin Jones that spring, and he plays the whole piece with mallets, barely touching a cymbal. A year later Phil Spector took the opposite approach: rather than implying rain, he bought some. 'Walking in the Rain,' written by Barry Mann and Cynthia Weil for the Ronettes, opens with thunder and rain from a sound-effects recording, mixed in at Gold Star in Los Angeles by engineer Larry Levine. Ronnie Spector sings against it through the studio's echo chambers.",
+      "audio": "/audio/rain/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Walking in the Rain",
+      "artist": "The Ronettes",
+      "listenFor": "Listen for: the record starting with the storm alone — several seconds of effects disc before any instrument — and how fast the drums and strings swallow it once the vocal enters.",
+      "spotifyUri": "spotify:track:6LHzCuLzfZQr0V8eZD9TPC",
+      "spotifyName": "Walking In the Rain",
+      "spotifyArtists": "The Ronettes",
+      "cueAudio": "/audio/rain/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "The storm at the top of that record gets a few seconds entirely to itself before the band is allowed in — Spector treated the effects disc as part of the arrangement. The Ronettes opened for the Beatles on their 1966 American tour, and the Beatles had studied Spector's records closely. 'Rain,' cut at Abbey Road that April as the B-side of 'Paperback Writer,' contains no rain sounds at all: the band recorded the rhythm track fast and slowed the tape down, which is why everything sounds heavy and slightly smeared. The last thirty seconds run Lennon's vocal backwards — the first reversed vocal released on a pop record.",
+      "audio": "/audio/rain/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Rain",
+      "artist": "The Beatles",
+      "listenFor": "Listen for: the thickened, dragging sound of a rhythm track recorded fast and played back slow, and the coda where Lennon's vocal is a piece of the first verse reversed.",
+      "spotifyUri": "spotify:track:48TNLcToLs8DWkdj5vYdiW",
+      "spotifyName": "Rain - Remastered 2009",
+      "spotifyArtists": "The Beatles",
+      "cueAudio": "/audio/rain/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Those backwards words at the end are lines from the opening verse, flipped over and dropped back in. Five years on, the Doors went the Spector route instead: 'Riders on the Storm,' from the L.A. Woman sessions in 1971, has recorded thunder and rain running the length of the track, mixed in by engineer Bruce Botnick from a stereo sound-effects record. Jim Morrison sang the lead, then whispered the same lyric on a second track layered underneath. It was the last vocal he recorded.",
+      "audio": "/audio/rain/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Riders on the Storm",
+      "artist": "The Doors",
+      "listenFor": "Listen for: the whispered double of Morrison's lead vocal sitting just under the sung one, and the sound-effects rain crossfaded so it never fully leaves the mix.",
+      "spotifyUri": "spotify:track:14XWXWv5FoCbFzLksawpEe",
+      "spotifyName": "Riders on the Storm",
+      "spotifyArtists": "The Doors",
+      "cueAudio": "/audio/rain/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "The raindrop runs in the instrumental break are Ray Manzarek on a Fender Rhodes electric piano — an instrument imitating water while the effects disc supplies the real thing. Two years later Led Zeppelin sourced an entire orchestra from a keyboard: on 'The Rain Song,' from Houses of the Holy in 1973, John Paul Jones plays Mellotron, where each key triggers a tape loop of real string players. The story is that George Harrison needled John Bonham about Zeppelin never writing ballads, so Jimmy Page wrote one, and its opening phrase nods to Harrison's 'Something.'",
+      "audio": "/audio/rain/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "The Rain Song",
+      "artist": "Led Zeppelin",
+      "listenFor": "Listen for: the string section that is actually a Mellotron — tape loops under John Paul Jones's fingers — and how the drums stay out entirely until past the midpoint.",
+      "spotifyUri": "spotify:track:3JLrri1xSCui3bzITDJbkk",
+      "spotifyName": "The Rain Song - Remaster",
+      "spotifyArtists": "Led Zeppelin",
+      "cueAudio": "/audio/rain/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Bonham holds out for over half of that track, and when he finally enters it's at full weight, with no build. The same year, at Royal Studios in Memphis, producer Willie Mitchell and Ann Peebles needed rain for a Hi Records single and used a drum instead of a recording: the dripping figure that opens 'I Can't Stand the Rain' is an electric timbale, played as the song's hook. Peebles wrote it with Don Bryant and Bernard Miller. John Lennon reportedly called it the best song ever.",
+      "audio": "/audio/rain/n05.mp3"
+    },
+    {
+      "type": "song",
+      "title": "I Can't Stand the Rain",
+      "artist": "Ann Peebles",
+      "listenFor": "Listen for: the opening raindrop sound, which is an electric timbale rather than an effect, and how many bars it's left completely alone before the band enters.",
+      "spotifyUri": "spotify:track:0CcL4kSHKIEwF3IW0BGgb6",
+      "spotifyName": "I Can't Stand the Rain",
+      "spotifyArtists": "Ann Peebles",
+      "cueAudio": "/audio/rain/c05.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That timbale sits by itself at the top of the record, nothing else on the tape — which is exactly what made it liftable. In 1997 Timbaland built Missy Elliott's first single directly on the 1973 master: Peebles' voice and the timbale, looped rather than replayed. Missy raps around the sample instead of over it, so the older recording stays audible as itself. The single came out through Elektra's EastWest label — the same company that had released the Doors' storm twenty-six years earlier.",
+      "audio": "/audio/rain/n06.mp3"
+    },
+    {
+      "type": "song",
+      "title": "The Rain (Supa Dupa Fly)",
+      "artist": "Missy Elliott",
+      "listenFor": "Listen for: the 1973 Ann Peebles recording running intact inside the beat, and how many counts Timbaland leaves completely empty around it.",
+      "spotifyUri": "spotify:track:2WRzpLD8qDRrxMXc63E5WJ",
+      "spotifyName": "The Rain (Supa Dupa Fly)",
+      "spotifyArtists": "Missy Elliott",
+      "cueAudio": "/audio/rain/c06.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "A lot of that beat is silence — Timbaland leaves whole counts open around the sample, and the track stays off balance because of it. That gapped programming fed into UK garage and two-step, the scene Burial came out of. 'Archangel,' from the 2007 album Untrue on Hyperdub, was assembled in Sound Forge, a plain audio editor with no sequencer grid, so the drums are placed by hand and drift off the clock. The voice is Ray J's 2005 single 'One Wish,' pitched down past recognition.",
+      "audio": "/audio/rain/n07.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Archangel",
+      "artist": "Burial",
+      "listenFor": "Listen for: hi-hats that drift slightly off the grid because they were placed by hand, and the constant bed of crackle and hiss underneath the pitched-down vocal.",
+      "spotifyUri": "spotify:track:5kadOt1O3LrIV46dns9v7u",
+      "spotifyName": "Archangel",
+      "spotifyArtists": "Burial",
+      "cueAudio": "/audio/rain/c07.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Under everything in that track there's a layer of crackle and background noise; Burial has said he records rain and street sound and folds it in, so some of that texture is likely actual weather — the first since the Doors record. He also worked alone with cheap tools, which is roughly how Eurythmics began: Dave Stewart and Annie Lennox cut their early hits on an eight-track, then converted a north London church into their own studio. That's where 'Here Comes the Rain Again' was made in 1983 — a minor-key synthesizer arpeggio with a real orchestral string arrangement by Michael Kamen laid over it. There's no rain sound anywhere on the record.",
+      "audio": "/audio/rain/n08.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Here Comes the Rain Again",
+      "artist": "Eurythmics",
+      "listenFor": "Listen for: the repeating synthesizer arpeggio holding a fixed pattern while Michael Kamen's real strings move against it — and the strings arriving in the first bar, before the vocal.",
+      "spotifyUri": "spotify:track:78RIER8V6EhrqVPOBi2GYa",
+      "spotifyName": "Here Comes the Rain Again - Remastered Version",
+      "spotifyArtists": "Eurythmics, Annie Lennox, Dave Stewart",
+      "cueAudio": "/audio/rain/c08.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Kamen's strings enter before Lennox sings a note — the orchestra leads and the synthesizer follows, which is the reverse of how these records usually stack. While Eurythmics were making the Touch album, Prince recorded 'Purple Rain' live on stage at First Avenue in Minneapolis, on August 3, 1983, at a benefit for the Minnesota Dance Theatre. The album take is that performance, trimmed from roughly thirteen minutes, with a small string section overdubbed later. It was guitarist Wendy Melvoin's first show with the band; the opening chords are hers.",
+      "audio": "/audio/rain/n09.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Purple Rain",
+      "artist": "Prince",
+      "listenFor": "Listen for: the sound of a real room — a crowd mixed low under the whole take — and the string parts, which were added in the studio afterward on top of the live tape.",
+      "spotifyUri": "spotify:track:1uvyZBs4IZYRebHIB1747m",
+      "spotifyName": "Purple Rain",
+      "spotifyArtists": "Prince",
+      "cueAudio": "/audio/rain/c09.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "There's no rain on 'Purple Rain' either — a live room, an audience mixed low, strings added after the fact. Across these ten records the actual sound of rain turns up maybe three times: two sound-effects discs and whatever Burial pulled in through his window. Everything else was substitution — a timbale with a pickup, tape run slow, a Mellotron, a title doing the work on its own. That's partly a physics problem: rain hitting a microphone comes out as broadband noise, closer to frying oil than to weather, which is why film sound editors have faked it for a century as well. The most convincing rain of the night was Ann Peebles', and it was a drum.",
+      "audio": "/audio/rain/n10.mp3"
+    }
+  ]
+}

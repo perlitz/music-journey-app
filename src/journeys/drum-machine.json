@@ -1,0 +1,86 @@
+{
+  "title": "The Machine Learns to Groove",
+  "subject": "How the drum machine took over popular music",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Before about 1970, every beat you ever heard was a person — muscle, breath, and the tiny imperfections of a human keeping time. Then machines learned to hold the beat, and something strange happened: the flaws we thought were the soul of rhythm turned out to be optional. This is the story of how the fake beat became real. First stop is the moment a drum machine quietly sat inside a hit record. Listen past the voices, underneath everything, for a stiff little tick that never breathes.",
+      "audio": "/audio/drum-machine/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Family Affair",
+      "artist": "Sly and the Family Stone",
+      "listenFor": "The dry, mechanical click under the groove — a Maestro Rhythm King preset, the first drum machine to power a US #1. It doesn't swing. It insists.",
+      "spotifyUri": "spotify:track:08w1NmH9EjyFdFhSBn8inf",
+      "spotifyName": "Family Affair",
+      "spotifyArtists": "Sly & The Family Stone",
+      "cueAudio": "/audio/drum-machine/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Sly used the machine to fake a drummer — to fill a chair when the band was too strung out to show up. Across the ocean, four Germans decided to stop apologizing. Kraftwerk didn't hide the machine; they made its inhuman precision the entire point, and somehow it came out beautiful. Listen for how the total absence of a human touch stops sounding cold and starts sounding like a train, like the future arriving exactly on schedule.",
+      "audio": "/audio/drum-machine/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Trans-Europe Express",
+      "artist": "Kraftwerk",
+      "listenFor": "Perfection as an aesthetic, not a flaw to fix. Notice you stop missing the drummer. The metronome became the melody.",
+      "spotifyUri": "spotify:track:3UjH6apk0ogZeIqhHbjrRU",
+      "spotifyName": "Trans-Europe Express - 2009 Remaster",
+      "spotifyArtists": "Kraftwerk",
+      "cueAudio": "/audio/drum-machine/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Now watch the machine cross the Atlantic. A young DJ in the Bronx named Afrika Bambaataa took this exact Kraftwerk record, welded it to a brand-new Roland drum machine called the TR-808, and invented a future nobody had asked for. The 808 had flopped commercially — it sounded fake, too clean, wrong. But it was cheap, and its kick drum boomed like nothing on earth. Listen for that same European precision you just heard, now dragged onto a New York street corner and made to dance.",
+      "audio": "/audio/drum-machine/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Planet Rock",
+      "artist": "Afrika Bambaataa & The Soulsonic Force",
+      "listenFor": "The Trans-Europe Express melody reborn, riding an 808. This is the machine changing citizenship — from cold European art to the heartbeat of hip hop.",
+      "spotifyUri": "spotify:track:4FupIlegZgvXUuK79qcoKW",
+      "spotifyName": "Planet Rock",
+      "spotifyArtists": "Afrika Bambaataa, The Soulsonic Force",
+      "cueAudio": "/audio/drum-machine/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That same year, the 808's reputation was 'fake' and 'harsh.' And then a dying-career Marvin Gaye, exiled in Belgium, sat down at one and did the impossible: he made the machine sound tender. The same box that gave hip hop its menace here gives you a lullaby. Listen for the kick drum — so deep and round it's almost a note you feel in your chest rather than hear — and notice how warm the coldest instrument in the room can be.",
+      "audio": "/audio/drum-machine/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Sexual Healing",
+      "artist": "Marvin Gaye",
+      "listenFor": "The 808 as a caress. Same machine as Planet Rock, opposite emotion. Proof the feeling was never in the box — it was in who pressed the keys.",
+      "spotifyUri": "spotify:track:3VZmChrnVW8JK6ano4gSED",
+      "spotifyName": "Sexual Healing",
+      "spotifyArtists": "Marvin Gaye",
+      "cueAudio": "/audio/drum-machine/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Fast-forward. The 808's kick kept getting longer and deeper until it stopped being a drum at all and became the bassline itself — a tuned, melodic thing carrying the whole emotional weight of a song. Here is Kanye West building an entire heartbroken record around it, literally titling that era after the machine. Listen for the kick as the lead instrument — pitched, aching, standing in for a heart that can't keep steady time.",
+      "audio": "/audio/drum-machine/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Love Lockdown",
+      "artist": "Kanye West",
+      "listenFor": "The 808 as pure feeling — no longer keeping the beat but being the beat, the bass, and the broken heart all at once.",
+      "spotifyUri": "spotify:track:1kxeWHF9PrCVZHvVskv8lg",
+      "spotifyName": "Love Lockdown",
+      "spotifyArtists": "Kanye West",
+      "cueAudio": "/audio/drum-machine/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "And that's the tour. In fifty years the drum machine went from a stiff little tick Sly buried in the mix, to a European ideal, to the sound of a street corner, to a caress, to a heartbeat you can tune. The imperfection we were so afraid of losing turned out to be just one feeling among many — and the machine, once we stopped asking it to pretend to be human, learned to be everything. Now it's in your pop, your country, your lullabies, invisible and everywhere. You won't be able to unhear it.",
+      "audio": "/audio/drum-machine/n05.mp3"
+    }
+  ]
+}

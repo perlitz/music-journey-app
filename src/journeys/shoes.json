@@ -1,0 +1,161 @@
+{
+  "title": "Step Inside: A Musical History of Shoes",
+  "subject": "shoes",
+  "segments": [
+    {
+      "type": "narration",
+      "text": "Look down for a second. Whatever is on your feet right now is saying something about you — what you can afford, where you're headed, whether you plan to dance tonight or walk out for good. Pop music figured this out early: shoes are the one piece of clothing that touches both the body and the road, so they've become songwriting shorthand for identity, power, desire, and escape. Over the next ten songs we're going to follow that idea from a rockabilly dance floor in 1956 to sneaker culture, Cuban horns, Zulu harmony, and finally to the oldest shoe metaphor of all. First stop: the moment shoes became sacred in rock and roll.",
+      "audio": "/audio/shoes/n00.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Blue Suede Shoes",
+      "artist": "Carl Perkins",
+      "listenFor": "The stop-time intro — the whole band freezes on 'one for the money' so each phrase hangs in silence before the boogie kicks in. That trick makes the shoes feel like the most important object in the world.",
+      "spotifyUri": "spotify:track:4EogB3ZPP598C0Ziq53jMs",
+      "spotifyName": "Blue Suede Shoes",
+      "spotifyArtists": "Carl Perkins",
+      "cueAudio": "/audio/shoes/c00.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Notice what Perkins was actually singing: burn my house, steal my car, drink my liquor — just don't touch the shoes. In 1956, for a poor kid from Tennessee, one flashy pair was the entire fortune, identity distilled to footwear, and rock and roll made that obsession its founding joke. But if Perkins' shoes were something to protect, the next pair is a weapon. Ten years later Nancy Sinatra flipped the equation: her boots don't get stepped on — they do the stepping.",
+      "audio": "/audio/shoes/n01.mp3"
+    },
+    {
+      "type": "song",
+      "title": "These Boots Are Made for Walkin'",
+      "artist": "Nancy Sinatra",
+      "listenFor": "Chuck Berghofer's famous descending bass line that opens the record — a slow, sliding walk down the neck that literally sounds like boots strutting toward you. The whole song is built on that swagger.",
+      "spotifyUri": "spotify:track:2PneNdtypG6XcgmWmGd9FI",
+      "spotifyName": "These Boots Are Made for Walkin'",
+      "spotifyArtists": "Nancy Sinatra",
+      "cueAudio": "/audio/shoes/c01.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That deadpan 'are you ready, boots? start walkin'' at the end is one of pop's great mic drops — footwear as declaration of independence, walking as the act of leaving. But shoes don't only walk away from things; they walk toward the dance floor. Nine years later, disco took the same energy and pointed it at Saturday night, and KC and the Sunshine Band wrote the most literal thesis statement in this whole tour: shoes exist to boogie in.",
+      "audio": "/audio/shoes/n02.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Boogie Shoes",
+      "artist": "KC & The Sunshine Band",
+      "listenFor": "The horn section punching in short, syncopated stabs against the guitar riff — Miami funk's signature. The horns don't play melody so much as footwork, hitting like heels on a lit-up floor.",
+      "spotifyUri": "spotify:track:5aStVuk8kWHsxYHaNwVX4o",
+      "spotifyName": "Boogie Shoes",
+      "spotifyArtists": "KC & The Sunshine Band",
+      "cueAudio": "/audio/shoes/c02.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "That song was pure pleasure — shoes as a ticket to joy, no subtext required. But leave the disco and step onto a Queens sidewalk in 1986, and shoes turn dead serious again. Run-D.M.C. wrote 'My Adidas' as a direct answer to preachers who claimed sneakers marked young Black men as criminals — it's Carl Perkins' 'don't step on my shoes' reborn as a defense of a whole culture. The song worked so well that Adidas signed them, the first sneaker deal in hip-hop history.",
+      "audio": "/audio/shoes/n03.mp3"
+    },
+    {
+      "type": "song",
+      "title": "My Adidas",
+      "artist": "Run-D.M.C.",
+      "listenFor": "How empty the track is: just a hard drum machine, scratches, and two voices trading and doubling lines. Rick Rubin stripped away all melody so the shoes — and the pride — stand alone in the mix.",
+      "spotifyUri": "spotify:track:6LdpVTJzigyi2vbKe8mZAr",
+      "spotifyName": "My Adidas",
+      "spotifyArtists": "Run–D.M.C.",
+      "cueAudio": "/audio/shoes/c03.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Run and D.M.C. rapped about wearing their Adidas with no shoelaces — prison style, reclaimed as fashion — and turned a stereotype into a brand ambassadorship. Sixteen years later, that seed had grown into a full-blown sneaker economy, and Nelly captured its rituals: the trip to the store, the fresh pair kept in the box, the two pairs bought at once. 'Air Force Ones' is 'My Adidas' after the money arrived.",
+      "audio": "/audio/shoes/n04.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Air Force Ones",
+      "artist": "Nelly",
+      "listenFor": "The hook is whispered — 'I said give me two pair' — like a secret between collectors. Listen to how the beat stays sparse and bouncy underneath, all snap and space, mimicking crisp new leather.",
+      "spotifyUri": "spotify:track:7kAFSrTIOiVZ0gnHBuAH3l",
+      "spotifyName": "Air Force Ones",
+      "spotifyArtists": "Nelly, Murphy Lee, Ali, Kyjuan",
+      "cueAudio": "/audio/shoes/c04.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Nelly treating a shoe store like a cathedral tells you sneakers had become status objects as potent as any luxury good. But sneakers were never the only shoes carrying that weight — high heels have run the same racket for far longer, promising glamour while punishing the wearer. Kirsty MacColl saw the joke clearly, and she set it to Cuban horns: a woman being invited on wild romantic adventures who keeps checking her footwear first.",
+      "audio": "/audio/shoes/n05.mp3"
+    },
+    {
+      "type": "song",
+      "title": "In These Shoes?",
+      "artist": "Kirsty MacColl",
+      "listenFor": "The collision of hot Latin brass and mambo percussion with MacColl's bone-dry London deadpan. The band keeps promising passion; her voice keeps replying, essentially, 'not in these heels.'",
+      "spotifyUri": "spotify:track:6K2exMTxOTgErtQlp5BRMp",
+      "spotifyName": "In These Shoes?",
+      "spotifyArtists": "Kirsty MacColl",
+      "cueAudio": "/audio/shoes/c05.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "MacColl's punchline works because shoes really do set the limits of what we'll do for love — and that idea has a much older, sadder ancestor. In 1963 Bob Dylan wrote a folk ballad as a conversation between two parting lovers: one sails away offering to send gifts, the other wants nothing but the person. The final request — a pair of Spanish boots — is what you ask for when you finally accept someone is not coming back.",
+      "audio": "/audio/shoes/n06.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Boots of Spanish Leather",
+      "artist": "Bob Dylan",
+      "listenFor": "There's no chorus — just alternating verses, two voices in one, over a single fingerpicked guitar. Notice the turn in the final verses when one speaker stops asking questions and simply asks for the boots.",
+      "spotifyUri": "spotify:track:6QHYEZlm9wyfXfEM1vSu1P",
+      "spotifyName": "Boots of Spanish Leather",
+      "spotifyArtists": "Bob Dylan",
+      "cueAudio": "/audio/shoes/c06.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Those boots were a consolation prize — shoes standing in for a love that left. Paul Simon found the opposite image in Johannesburg two decades later: a rich girl with 'diamonds on the soles of her shoes,' wealth so casual it gets ground into the pavement, sung alongside a poor boy with nothing. He recorded it with Ladysmith Black Mambazo, whose style, isicathamiya, literally means 'to walk softly, on tiptoe' — a music named after footsteps.",
+      "audio": "/audio/shoes/n07.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Diamonds on the Soles of Her Shoes",
+      "artist": "Paul Simon",
+      "listenFor": "The a cappella opening: Ladysmith Black Mambazo's deep Zulu harmonies before any instruments enter, then Bakithi Kumalo's fretless bass sliding in like something liquid. Two worlds meeting in one groove.",
+      "spotifyUri": "spotify:track:71GvlH0VdeClloLIkHrAVu",
+      "spotifyName": "Diamonds on the Soles of Her Shoes",
+      "spotifyArtists": "Paul Simon",
+      "cueAudio": "/audio/shoes/c07.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Simon's diamonds were about inherited luck — some people are simply born walking on riches. But most of us know a humbler magic: the way one new pair of shoes can reboot your entire outlook. Paolo Nutini wrote a whole song about exactly that feeling — waking up sore and defeated until the moment the new shoes go on — and he built the track so it bounces like fresh soles on pavement.",
+      "audio": "/audio/shoes/n08.mp3"
+    },
+    {
+      "type": "song",
+      "title": "New Shoes",
+      "artist": "Paolo Nutini",
+      "listenFor": "The rhythm section imitates walking: a brisk, stomping shuffle with handclaps landing like footsteps. Notice how the energy visibly lifts every time the chorus hits 'put on my new shoes.'",
+      "spotifyUri": "spotify:track:265Anh9hGoozFigjUVLUeD",
+      "spotifyName": "New Shoes",
+      "spotifyArtists": "Paolo Nutini",
+      "cueAudio": "/audio/shoes/c08.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "Nutini's cheap little miracle — new shoes, suddenly everything's all right — is shoes at their most personal. Which leaves one final meaning, the deepest one, hiding in an expression we all use. In 1970, as America tore at itself, Georgia songwriter Joe South took the old proverb about not judging a man until you've walked a mile in his shoes and turned it into swamp-soul gospel. After nine songs about what shoes say about us, this last one asks what they might teach us about everyone else.",
+      "audio": "/audio/shoes/n09.mp3"
+    },
+    {
+      "type": "song",
+      "title": "Walk a Mile in My Shoes",
+      "artist": "Joe South",
+      "listenFor": "The slow-burning swamp groove — tambourine, churchy backing singers answering every line — building like a congregation getting on its feet. The arrangement makes empathy sound physical, like an actual walk.",
+      "spotifyUri": "spotify:track:0UI5wNYgWqgIuKHh5zwl2i",
+      "spotifyName": "Walk A Mile In My Shoes",
+      "spotifyArtists": "Joe South",
+      "cueAudio": "/audio/shoes/c09.mp3"
+    },
+    {
+      "type": "narration",
+      "text": "And that's where the journey lands. We started with Carl Perkins guarding his blue suedes like treasure, watched shoes become weapons, dance partners, cultural armor, luxury objects, love tokens, and lottery tickets — and ended with Joe South asking us to trade shoes entirely. That's the whole secret of why songwriters keep reaching for footwear: shoes are where the self meets the street, the most private thing we own that everyone can see. So the next time you lace up, listen. Every pair is already telling a story — these ten songs just taught you how to hear it.",
+      "audio": "/audio/shoes/n10.mp3"
+    }
+  ]
+}
