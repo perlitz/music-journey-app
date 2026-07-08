@@ -20,6 +20,8 @@ export function loadEnv() {
         (val.startsWith("'") && val.endsWith("'"))
       ) {
         val = val.slice(1, -1);
+      } else {
+        val = val.replace(/\s+#.*$/, '').trim();
       }
       if (!(key in process.env)) process.env[key] = val;
     }
