@@ -98,6 +98,20 @@ const INTRO_HOLD_MS = 3000;
 const POLL_MS = 1500;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Helper to smoothly fade out Spotify volume before pausing
+async function fadeOutSpotify(deviceId, durationMs = 2000) {
+  const steps = 8;
+  const stepMs = durationMs / steps;
+  const volumeStep = SONG_VOLUME / steps;
+  let currentVolume = SONG_VOLUME;
+
+  for (let i = 0; i < steps; i++) {
+    currentVolume = Math.max(0, currentVolume - volumeStep);
+    await setVolume(deviceId, currentVolume).catch(() => {});
+    await sleep(stepMs);
+  }
+}
+
 async function duckAndPlay(url, myStep) {
   if (deviceId) await setVolume(deviceId, DUCK_VOLUME).catch(() => {});
   try {
@@ -105,7 +119,16 @@ async function duckAndPlay(url, myStep) {
   } catch (e) {
     console.error('cue audio failed:', e);
   } finally {
-    if (myStep === step && deviceId) await setVolume(deviceId, SONG_VOLUME).catch(() => {});
+    if (myStep === step && deviceId) {
+      await setVolume(deviceId, SONG_VOLUME).catch(() => {});
+      
+      // On mobile (iOS/Android), the OS pauses Spotify when the browser plays audio.
+      // Resume Spotify playback automatically only on mobile devices.
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      if (isMobile) {
+        await resumePlayback(deviceId).catch(() => {});
+      }
+    }
   }
 }
 
@@ -146,7 +169,7 @@ function pollSongEnd(uri, myStep) {
         } else {
           // The URI changed. If we saw it playing, or if it changed to another track, it's ended.
           if (sawPlaying) {
-            advance();
+            advance(false);
             return;
           }
         }
@@ -156,7 +179,7 @@ function pollSongEnd(uri, myStep) {
           // If it's paused/stopped near the end
           const nearEnd = lastDuration > 0 && lastProgress >= lastDuration - 4000;
           if (nearEnd) {
-            advance();
+            advance(false);
             return;
           }
         }
@@ -166,12 +189,12 @@ function pollSongEnd(uri, myStep) {
         if (sawPlaying) {
           const nearEnd = lastDuration > 0 && lastProgress >= lastDuration - 10000;
           if (nearEnd) {
-            advance();
+            advance(false);
             return;
           }
           consecutiveInactive++;
           if (consecutiveInactive >= 3 && lastDuration > 0 && lastProgress >= lastDuration - 15000) {
-            advance();
+            advance(false);
             return;
           }
         }
@@ -184,12 +207,22 @@ function pollSongEnd(uri, myStep) {
   setTimeout(tick, POLL_MS);
 }
 
-async function advance() {
+async function advance(fade = false) {
   const myStep = ++step;
 
   cancelAudio();
   hideOverlay();
+
+  // Fade out Spotify if requested and we are currently playing a song
+  const currentSeg = journey.segments[index];
+  if (fade && currentSeg?.type === 'song' && deviceId && !paused) {
+    statusEl.textContent = '🎵 Fading out…';
+    await fadeOutSpotify(deviceId, 2000);
+    if (myStep !== step) return;
+  }
+  
   if (deviceId) await pausePlayback(deviceId).catch(() => {});
+  if (deviceId) await setVolume(deviceId, SONG_VOLUME).catch(() => {});
   paused = false;
 
   index++;
@@ -205,7 +238,7 @@ async function advance() {
     statusEl.textContent = '🗣 Narrating…';
     try {
       await playAudio(asset(seg.audio));
-      if (myStep === step) advance();
+      if (myStep === step) advance(false); // natural narration end, no fade
     } catch (e) {
       statusEl.textContent = '❌ Narration audio failed — ' + e.message;
       console.error(e);
@@ -327,7 +360,7 @@ async function refreshDevices() {
 
 // ----- Boot --------------------------------------------------------------
 loginBtn.addEventListener('click', () => login());
-advanceBtn.addEventListener('click', () => advance());
+advanceBtn.addEventListener('click', () => advance(true));
 pauseBtn.addEventListener('click', togglePause);
 journeyPicker.addEventListener('change', () => switchJourney(journeyPicker.value));
 devicePicker.addEventListener('change', async () => {
